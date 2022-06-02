@@ -28,8 +28,8 @@
 
   - Additive regression model take the form
 
-  ```md
-  $$ y*0 =\beta_0 + \sum*{j=1}^p f_j(X_j) + \epsilon$$ The function $f_j(X_j)$ are unknown smoothing functions fit from the data
-  ```
+  $$y_0 =\beta_0 + \sum_{j=1}^p f_j(X_j) + \epsilon$$
+
+  The function $f_j(X_j)$ are unknown smoothing functions fit from the data
 
 * Prophet works with missing data and outliers
