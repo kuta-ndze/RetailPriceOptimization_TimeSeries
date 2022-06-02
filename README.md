@@ -1,2 +1,3 @@
-# RetailPriceOptimization_TimeSeries
-Price optimization 
+## `Retail Price Optimization`
+
+Price optimization
