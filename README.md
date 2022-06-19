@@ -28,8 +28,11 @@
 
   - Additive regression model take the form
 
-  $$y_0 =\beta_0 + \sum_{j=1}^p f_j(X_j) + \epsilon$$
+  $$y(t) =g(t) + s(t) + h(t) + \epsilon(t)$$
 
-  The function $f_j(X_j)$ are unknown smoothing functions fit from the data
+       - $g(t)$ : piecewise linear or logistic growth curve for modeling non-periodic changes in time series.
+       - $s(t)$ : periodic changes (e.g weekly/yearly seasonality)
+       - $h(t)$ : effects of holidays (user provided) with irregular schedules
+       - $\epsilon(t)$ : error term accounts for any unusual changes not accommodated by the model.
 
-* Prophet works with missing data and outliers
+* Prophet works with missing data and outliers, very easy to tune model hyperparameters like changepoints.
