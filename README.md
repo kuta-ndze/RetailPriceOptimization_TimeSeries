@@ -1,4 +1,4 @@
-## `Retail Price Optimization`
+## `Sales Price Forecasting`
 
 **AIM**
 
